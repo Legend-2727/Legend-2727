@@ -26,7 +26,7 @@ I'm **Farhad Al-Amin (Legend-2727)**, a **CSE student** at **BUET**, passionate 
 ---
 
 ## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&theme=radical)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&theme=radical)   
 
 ## 💻 Most Used Languages  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Legend-2727&layout=compact&theme=tokyonight)  
