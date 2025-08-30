@@ -1,6 +1,4 @@
-<h1 align="center">Hi 👋, I'm🚀 **Multiple Hackathon Achievements**
-- 🔬 IonQ VQI-FLIQ 2025 Competition - Successfully solved quantum optimization challenges
-- 🎯 UAP Hackathon 2025 - Solving unemployment and skill development issuesrhad Al-Amin Dipto (Legend-2727)</h1>
+<h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto (Legend-2727)</h1>
 <h3 align="center">Final-year CSE undergraduate at BUET with expertise in Quantum Computing, Full-Stack Development, and Systems Programming</h3>
 
 <h3 align="left">Visitor count:</h3>
@@ -30,7 +28,7 @@
 - 🔒 Project: [Veridica](https://github.com/Legend-2727/Veridica) - Blockchain-powered content authenticity platform
 
 🚀 **Multiple Hackathon Achievements**
-- � IonQ VQI-FLIQ 2025 Competition - Successfully solved quantum optimization challenges
+- 🔬 IonQ VQI-FLIQ 2025 Competition - Successfully solved quantum optimization challenges
 - 🎯 UAP Hackathon 2025 - Solving unemployment and skill development issues
 
 ## 🚀 Featured Projects
@@ -47,12 +45,12 @@
   - Integration with Qiskit's SABRE transpiler for improved gate routing
   - Real IBM quantum device error data analysis
 
-### � Blockchain & Web3
+### 🔗 Blockchain & Web3
 - **[Veridica](https://github.com/Legend-2727/Veridica)** - **Bolt Hackathon Project**
   - Blockchain-powered content authenticity verification
   - AI video/audio generation with Algorand protection
   - Live demo: [veridica.netlify.app](https://veridica.netlify.app/)
-  - � [Demo Video](https://youtu.be/CkMoEun7Z38)
+  - 📹 [Demo Video](https://youtu.be/CkMoEun7Z38)
 
 ### 🌐 Full-Stack Development
 - **[DevConnect Platform](https://github.com/Legend-2727/DevConnect-Backend)** - Microservices Architecture
@@ -66,7 +64,7 @@
   - Advertiser dashboard with ad tracking
   - Tech Stack: React, Node.js, MySQL
 
-### � Cybersecurity & Networking
+### 🔐 Cybersecurity & Networking
 - **[IPv6 Router Advertisement Flooding](https://github.com/Legend-2727/-IPv6-Router-Advertisement-RA-Flooding)**
   - Network security vulnerability demonstration
   - Advanced networking protocols analysis
@@ -87,7 +85,7 @@
   - C++ game with iGraphics library
   - Multiple characters, power-ups, enemy types, sound effects
 
-�‍�💻 All of my projects are available at [GitHub](https://github.com/Legend-2727?tab=repositories)
+👨‍💻 All of my projects are available at [GitHub](https://github.com/Legend-2727?tab=repositories)
 
 📧 How to reach me **alaminfarhad27@gmail.com**
 
@@ -143,5 +141,4 @@
 
 <p align='center'>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" >
-</p>  
-
+</p>
