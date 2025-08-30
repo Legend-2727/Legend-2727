@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto (Legend-2727)</h1>
+<h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto </h1>
 <h3 align="center">Final-year CSE undergraduate at BUET with expertise in Quantum Computing, Full-Stack Development, and Systems Programming</h3>
 
 
