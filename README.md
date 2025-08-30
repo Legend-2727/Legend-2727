@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto (Legend-2727)</h1>
 <h3 align="center">Final-year CSE undergraduate at BUET with expertise in Quantum Computing, Full-Stack Development, and Systems Programming</h3>
 
-<h3 align="left">Visitor count:</h3>
-<p align="left"> <img src="https://profile-counter.glitch.me/Legend-2727/count.svg?" alt="Legend-2727" /> </p>
 
 <h3 align="left">Trophies:</h3>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="Legend-2727" /></a> </p>
