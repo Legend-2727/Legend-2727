@@ -17,6 +17,9 @@
   <a href="https://github.com/Javafest2025/docs">
     <img alt="Docs" src="https://img.shields.io/badge/Docs-architecture-334155?style=for-the-badge&logo=readthedocs" />
   </a>
+  <a href="https://www.youtube.com/channel/UCb_ESD-NqkHKiYk5knqhIEw">
+    <img alt="YouTube (Demos)" src="https://img.shields.io/badge/YouTube-Demos-FF0000?style=for-the-badge&logo=youtube" />
+  </a>
   <a href="https://legend-2727.github.io/Farhad-Al-Amin/">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-legend--2727.github.io-0b7285?style=for-the-badge" />
   </a>
@@ -29,7 +32,7 @@
 - Data/infra: **PostgreSQL**, **Redis**, **RabbitMQ**; orchestrated via **Docker Compose** across **14 repos**.
 - **CI/CD**: GitHub Actions; health/docs endpoints; input validation & basic content-safety checks.
 - **Extraction stack**: **GROBID, Nougat, Tesseract OCR, Table Transformer**.
-- **Links:** **[Demo (2:13)](https://youtu.be/m3kZKnD2NTs)** · **[Full (5:00)](https://youtu.be/v1TBpKTs80M)** · **[Live](https://scholarai.me)** · **[Org](https://github.com/Javafest2025)** · **[Meta](https://github.com/Javafest2025/meta)** · **[Docs](https://github.com/Javafest2025/docs)**
+- **Links:** **[Demo (2:13)](https://youtu.be/m3kZKnD2NTs)** · **[Full (41:23)](https://youtu.be/v1TBpKTs80M)** · **[Live](https://scholarai.me)** · **[Org](https://github.com/Javafest2025)** · **[Meta](https://github.com/Javafest2025/meta)** · **[Docs](https://github.com/Javafest2025/docs)**
 
 <details><summary><b>🏆 Trophies</b> (click to expand)</summary>
 
@@ -66,7 +69,7 @@
 
 - **ScholarAI — AI research workspace**  
   Search papers → extract structured data → contextual Q&A → AI-assisted LaTeX → pre-submission checks.  
-  **Demo (2:13):** https://youtu.be/m3kZKnD2NTs • **Full (5:00):** https://youtu.be/v1TBpKTs80M • **Live:** https://scholarai.me • **Org:** https://github.com/Javafest2025 • **Meta:** https://github.com/Javafest2025/meta • **Docs:** https://github.com/Javafest2025/docs
+  **Demo (2:13):** https://youtu.be/m3kZKnD2NTs • **Full (41:23):** https://youtu.be/v1TBpKTs80M • **Live:** https://scholarai.me • **Org:** https://github.com/Javafest2025 • **Meta:** https://github.com/Javafest2025/meta • **Docs:** https://github.com/Javafest2025/docs
 
 ### ⚛️ Quantum Computing & Research
 - **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** - 🏆 **2nd Prize CQhack25**
@@ -134,9 +137,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/al-amin-farhad-a563521a7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="al-amin-farhad-a563521a7" height="30" width="40" /></a>
-<a href="https://facebook.com/profile.php?id=100007587257707" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="farhad-al-amin" height="30" width="40" /></a>
-<a href="https://youtube.com/@Legend-2727" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Legend-2727" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/al-amin-farhad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn profile" height="30" width="40" /></a>
+<a href="https://facebook.com/profile.php?id=100007587257707" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook profile" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCb_ESD-NqkHKiYk5knqhIEw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube channel for project demos" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
