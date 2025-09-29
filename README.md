@@ -1,9 +1,42 @@
 <h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto </h1>
 <h3 align="center">Final-year CSE undergraduate at BUET with expertise in Quantum Computing, Full-Stack Development, and Systems Programming</h3>
 
+<p align="center">
+  <a href="https://youtu.be/m3kZKnD2NTs">
+    <img alt="Demo (2:13)" src="https://img.shields.io/badge/Demo-2:13-0A0A0A?style=for-the-badge&logo=youtube" />
+  </a>
+  <a href="https://scholarai.me">
+    <img alt="Live: scholarai.me" src="https://img.shields.io/badge/Live-scholarai.me-000000?style=for-the-badge&logo=vercel" />
+  </a>
+  <a href="https://github.com/Javafest2025">
+    <img alt="Org: Javafest2025" src="https://img.shields.io/badge/Org-Javafest2025-0f172a?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/Javafest2025/meta">
+    <img alt="Meta (orchestration)" src="https://img.shields.io/badge/Meta-orchestration-1f2937?style=for-the-badge&logo=docker" />
+  </a>
+  <a href="https://github.com/Javafest2025/docs">
+    <img alt="Docs" src="https://img.shields.io/badge/Docs-architecture-334155?style=for-the-badge&logo=readthedocs" />
+  </a>
+  <a href="https://legend-2727.github.io/Farhad-Al-Amin/">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-legend--2727.github.io-0b7285?style=for-the-badge" />
+  </a>
+</p>
+
+## 🚀 Now building — **ScholarAI** (flagship)
+*A single workspace for researchers: search → extract → ask → write → check.*
+
+- Frontend: **React/Next.js**. Core APIs: **Spring Boot (Java)**. AI services: **FastAPI (Python 3.11)**.
+- Data/infra: **PostgreSQL**, **Redis**, **RabbitMQ**; orchestrated via **Docker Compose** across **14 repos**.
+- **CI/CD**: GitHub Actions; health/docs endpoints; input validation & basic content-safety checks.
+- **Extraction stack**: **GROBID, Nougat, Tesseract OCR, Table Transformer**.
+- **Links:** **[Demo (2:13)](https://youtu.be/m3kZKnD2NTs)** · **[Full (5:00)](https://youtu.be/v1TBpKTs80M)** · **[Live](https://scholarai.me)** · **[Org](https://github.com/Javafest2025)** · **[Meta](https://github.com/Javafest2025/meta)** · **[Docs](https://github.com/Javafest2025/docs)**
+
+<details><summary><b>🏆 Trophies</b> (click to expand)</summary>
 
 <h3 align="left">Trophies:</h3>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="Legend-2727" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="GitHub profile trophies" /></a> </p>
+
+</details>
 
 ## 🎓 Academic Background
 - 🎓 **Final-year Student, Department of Computer Science & Engineering (CSE)**
@@ -30,6 +63,10 @@
 - 🎯 UAP Hackathon 2025 - Solving unemployment and skill development issues
 
 ## 🚀 Featured Projects
+
+- **ScholarAI — AI research workspace**  
+  Search papers → extract structured data → contextual Q&A → AI-assisted LaTeX → pre-submission checks.  
+  **Demo (2:13):** https://youtu.be/m3kZKnD2NTs • **Full (5:00):** https://youtu.be/v1TBpKTs80M • **Live:** https://scholarai.me • **Org:** https://github.com/Javafest2025 • **Meta:** https://github.com/Javafest2025/meta • **Docs:** https://github.com/Javafest2025/docs
 
 ### ⚛️ Quantum Computing & Research
 - **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** - 🏆 **2nd Prize CQhack25**
@@ -103,40 +140,41 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-<a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> 
-<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> 
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
-<a href="https://qiskit.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Qiskit-Logo.svg" alt="qiskit" width="40" height="40"/> </a> 
-<a href="https://www.latex-project.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="latex" width="40" height="40"/> </a> 
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&labelColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/FastAPI-05998B?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" alt="Python 3.11" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Docker%20Compose-384d54?logo=docker&logoColor=white" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Auth-OAuth2%20%7C%20JWT-111827" alt="OAuth2/JWT" />
+  <img src="https://img.shields.io/badge/Observability-logs%20%7C%20health%20%7C%20docs-111827" alt="Observability" />
 </p>
+
+<details><summary><b>📈 Charts & Activity</b> (click to expand)</summary>
 
 <h3 align="left">Charts & Stats:</h3>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Legend-2727&show_icons=true&locale=en&layout=compact&theme=great-gatsby" alt="Legend-2727" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Legend-2727&show_icons=true&locale=en&layout=compact&theme=great-gatsby" alt="Top languages used by Legend-2727" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&locale=en&theme=great-gatsby" alt="Legend-2727" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&locale=en&theme=great-gatsby" alt="GitHub stats for Legend-2727" /></p>
 
 <h3 align="left">Activities:</h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph showing GitHub activity" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph.svg">
 </picture>
 
 <p align='center'>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" >
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" alt="GitHub activity graph for Legend-2727" >
 </p>
+
+</details>
