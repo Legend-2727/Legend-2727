@@ -9,7 +9,7 @@
     <img alt="Live: scholarai.me" src="https://img.shields.io/badge/Live-scholarai.me-000000?style=for-the-badge&logo=vercel" />
   </a>
   <a href="https://github.com/Javafest2025">
-    <img alt="Org: Javafest2025" src="https://img.shields.io/badge/Org-Javafest2025-0f172a?style=for-the-badge&logo=github" />
+    <img alt="Org: Solace" src="https://img.shields.io/badge/Org-Javafest2025-0f172a?style=for-the-badge&logo=github" />
   </a>
   <a href="https://github.com/Javafest2025/meta">
     <img alt="Meta (orchestration)" src="https://img.shields.io/badge/Meta-orchestration-1f2937?style=for-the-badge&logo=docker" />
