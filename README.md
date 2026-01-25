@@ -9,7 +9,7 @@
     <img alt="Live: scholarai.me" src="https://img.shields.io/badge/Live-scholarai.me-000000?style=for-the-badge&logo=vercel" />
   </a>
   <a href="https://github.com/Javafest2025">
-    <img alt="Org: Solace" src="https://img.shields.io/badge/Org-Javafest2025-0f172a?style=for-the-badge&logo=github" />
+    <img alt="Org: Solace" src="https://img.shields.io/badge/Org-Solace-0f172a?style=for-the-badge&logo=github" />
   </a>
   <a href="https://github.com/Javafest2025/meta">
     <img alt="Meta (orchestration)" src="https://img.shields.io/badge/Meta-orchestration-1f2937?style=for-the-badge&logo=docker" />
@@ -50,11 +50,25 @@
 - 🧬 **Quantum Computing Research**: CAES qubit mapping strategy for noisy quantum hardware using real IBM error data
 - ⚛️ **Quantum Frameworks**: Hands-on experience with Qiskit, PennyLane, quantum circuit optimization for NISQ devices
 - 🤖 **Artificial Intelligence & Machine Learning**: Exploring quantum ML algorithms and classical ML implementations
-- 🧠 **Large Language Models (LLMs)**: Research and development in natural language processing and AI applications
+- 🧠 **Large Language Models (LLMs)**: Active research in parameter-efficient fine-tuning methodologies, including Low-Rank Adaptation (LoRA) and quantized model optimization for domain-specific LLM applications. Investigating instruction-tuning paradigms and reinforcement learning from human feedback (RLHF) for enhanced model alignment
 
 ## 🏆 Notable Achievements
 
-🥈 **2nd Prize Winner** - CQhack25 Quantum Computing Hackathon 
+� **Champion** - Echologyx Hackathon 2025
+- 🏅 Team BUET_Solace - Bangladesh University of Engineering and Technology (BUET)
+- 🎯 One-month journey of innovation, learning, and teamwork
+- 💡 Developed and refined groundbreaking solutions in AI and technology
+
+🥈 **1st Runners-Up** - Therap Javafest 2025 Grand Finale
+- 🏅 Team Solace - "The Ultimate Battle of Brains and Bytes"
+- 🚀 ScholarAI project - AI-powered research workspace platform
+- 🎊 Recognized for excellence in full-stack development and AI integration
+
+🏆 **Top 10 Finalist** - Solvio AI Hackathon
+- 🎯 Selected among top finalists in competitive AI innovation challenge
+- 🤖 Advanced AI/ML problem-solving and solution development
+
+�🥈 **2nd Prize Winner** - CQhack25 Quantum Computing Hackathon 
 - 🏅 [Certificate Verification](https://www.virtualbadge.io/certificate-validator?credential=59f3e7ce-6d19-44e2-8401-4a5e74d0f41b)
 - ⚛️ Project: [Quantum Playground](https://github.com/Legend-2727/Quantum-Playground) - Interactive quantum algorithm visualizations
 
@@ -67,14 +81,25 @@
 
 ## 🚀 Featured Projects
 
-- **ScholarAI — AI research workspace**  
-  Search papers → extract structured data → contextual Q&A → AI-assisted LaTeX → pre-submission checks.  
+- **ScholarAI — Production-Grade AI Research Workspace Platform**  
+  End-to-end research workflow: Search papers → Extract structured data → Contextual Q&A → AI-assisted LaTeX → Pre-submission checks  
+  **Architecture:** 14-repository microservices ecosystem with Docker Compose orchestration  
+  **Backend:** Spring Boot (Java) • Service Registry (Eureka) • API Gateway • Notification/Project/User Microservices  
+  **AI Services:** FastAPI (Python 3.11) • GROBID • Nougat • Tesseract OCR • Table Transformer  
+  **Data Infrastructure:** PostgreSQL • Redis • RabbitMQ  
+  **DevOps:** GitHub Actions CI/CD • Health/Docs endpoints • Input validation • Content-safety checks  
+  **Frontend:** React/Next.js with server-side rendering  
   **Demo (2:13):** https://youtu.be/m3kZKnD2NTs • **Full (41:23):** https://youtu.be/v1TBpKTs80M • **Live:** https://scholarai.me • **Org:** https://github.com/Javafest2025 • **Meta:** https://github.com/Javafest2025/meta • **Docs:** https://github.com/Javafest2025/docs
 
 ### ⚛️ Quantum Computing & Research
-- **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** - 🏆 **2nd Prize CQhack25**
-  - Interactive 3D quantum algorithm visualizations
-  - Grover's Search, QAOA, Quantum ML, Deutsch-Jozsa algorithms
+- **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** - 🏆 **2nd Prize CQhack25 Quantum Computing Hackathon**
+  - **4 Production Quantum Algorithms:** N-Queens (Grover's), Graph Coloring (QAOA), Quantum SVM, Deutsch-Jozsa
+  - **Advanced Features:** Interactive 3D quantum circuit visualizations, real-time Qiskit simulation, floating animated qubits
+  - **Technical Stack:** Qiskit 0.44.0, Qiskit-Aer, Streamlit 1.33.0, NumPy, Matplotlib, Plotly
+  - **Quantum Implementations:** Superposition states, quantum oracles, diffusion operators, parameterized circuits
+  - **Educational Content:** Step-by-step algorithm explanations, performance comparisons (classical vs quantum), quantum advantage demonstrations
+  - **QSVM Features:** Quantum feature maps (ZZFeatureMap, PauliFeatureMap), quantum kernel construction, support vector identification
+  - **Deutsch-Jozsa:** One-query function type determination (constant vs balanced), exponential speedup demonstration
   - Live demo: [quantum-playground.streamlit.app](https://quantum-playground.streamlit.app/)
   - 📹 [Demo Video](https://youtu.be/Y2Yp1Pa4Sx0)
 
@@ -84,15 +109,27 @@
   - Real IBM quantum device error data analysis
 
 ### 🔗 Blockchain & Web3
-- **[Veridica](https://github.com/Legend-2727/Veridica)** - **Bolt Hackathon Project**
-  - Blockchain-powered content authenticity verification
-  - AI video/audio generation with Algorand protection
+- **[Veridica](https://github.com/Legend-2727/Veridica)** - **Bolt Global Hackathon Finalist**
+  - **Blockchain Authentication:** Algorand testnet integration for immutable content ownership proofs via zero-cost transactions
+  - **Cryptographic Security:** SHA-256 file hashing, automatic blockchain registration, tamper-proof verification system
+  - **AI Content Generation:** Tavus API (video), ElevenLabs API (audio), AI-powered replica creation
+  - **Technical Implementation:** React, TypeScript, Vite, Supabase (PostgreSQL), Algorand SDK, algosdk.js
+  - **Smart Features:** Ownership conflict detection, blockchain explorer integration (AlgoExplorer), verification badges
+  - **Architecture:** Browser-compatible blockchain integration, Buffer polyfills for Node.js API compatibility
+  - **Security:** JWT authentication, secure HTTP-only cookies, protected API routes, graceful service degradation
+  - **DevOps:** Production-ready blockchain-only mode, Netlify deployment, environment-based configuration
   - Live demo: [veridica.netlify.app](https://veridica.netlify.app/)
   - 📹 [Demo Video](https://youtu.be/CkMoEun7Z38)
 
 ### 🌐 Full-Stack Development
-- **[DevConnect Platform](https://github.com/Legend-2727/DevConnect-Backend)** - Microservices Architecture
-  - Backend: Node.js, Express, PostgreSQL, Docker
+- **[DevConnect Platform](https://github.com/Legend-2727/DevConnect-Backend)** - Production Microservices Architecture
+  - **Backend Services:** Authentication Service (JWT, bcrypt), User Service, Application Service - all containerized
+  - **Tech Stack:** Node.js 18, Express.js, PostgreSQL, Docker, cookie-parser, JWT authentication
+  - **Architecture:** Service-oriented design, RESTful API endpoints, middleware authentication layer
+  - **Database:** PostgreSQL with connection pooling, schema-based organization (devconnect schema)
+  - **Security:** HTTP-only cookies, bcrypt password hashing, JWT token validation, secure session management
+  - **DevOps:** Individual Dockerfiles per service, hot-reload with nodemon, environment-based configuration
+  - **API Features:** Account registration/login, protected routes, user profile management, session handling
   - Frontend: [React Application](https://github.com/Legend-2727/Devconnect-Frontend)
   - 📹 [Demo Videos](https://youtu.be/9UrId7DYDHU) | [Part 2](https://youtu.be/j-04UTjIRdA)
 
@@ -130,8 +167,8 @@
 ## 🎯 Current Focus & Interests
 - 🔬 **Quantum Computing Research**: NISQ device optimization, quantum transpilation, quantum machine learning
 - 🤖 **Artificial Intelligence**: Machine learning algorithms, neural networks, AI applications
-- 🧠 **Large Language Models**: Natural language processing, LLM development and fine-tuning
-- 🌐 **Full-Stack Development**: MERN stack, microservices architecture
+- 🧠 **Large Language Models**: Advanced research in parameter-efficient fine-tuning (PEFT), LoRA/QLoRA implementations, instruction-tuning, RLHF, and domain adaptation for specialized NLP tasks
+- 🌐 **Full-Stack Development**: MERN stack, microservices architecture, cloud-native applications
 - 🛡️ **Cybersecurity**: Network security, ethical hacking
 - ♟️ **Logic & Strategy**: Chess enthusiast, puzzle solving
 
