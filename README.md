@@ -53,7 +53,10 @@
 - 🧠 **Large Language Models (LLMs)**: Active research in parameter-efficient fine-tuning methodologies, including Low-Rank Adaptation (LoRA) and quantized model optimization for domain-specific LLM applications. Investigating instruction-tuning paradigms and reinforcement learning from human feedback (RLHF) for enhanced model alignment
 
 ## 🏆 Notable Achievements
-
+🏆 **Champion** - Technopreneurship 2026
+- 🏅 Entrepreneurship competition organized by **Gigalogy**
+- 📈 Completed 3 months of intensive entrepreneurship training
+- 🚀 Emerged as champion among competing teams
 � **Champion** - Echologyx Hackathon 2025
 - 🏅 Team BUET_Solace - Bangladesh University of Engineering and Technology (BUET)
 - 🎯 One-month journey of innovation, learning, and teamwork
