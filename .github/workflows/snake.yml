@@ -8,6 +8,12 @@ on:
   push:
     branches: [main]
 
+# Publishing rewrites a whole branch, so an older run finishing late would
+# clobber a newer run's output. Keep one in flight and cancel the rest.
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   generate:
     permissions:
