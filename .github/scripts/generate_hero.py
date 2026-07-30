@@ -30,18 +30,18 @@ EMAIL = "alaminfarhad27@gmail.com"
 INFO_BLOCKS = [
     [
         ("Subject", NAME),
-        ("Role", "Full-Stack Engineer + Quantum Researcher"),
-        ("Origin", "Dhaka, Bangladesh"),
+        ("Role", "Research Scientist, GenMd (California)"),
+        ("Focus", "LLM fine-tuning, model training, evaluation"),
         ("Education", "BSc in CSE, BUET"),
-        ("Status", "Building + Researching + Shipping"),
-        ("Flagship", "ScholarAI - AI research workspace"),
+        ("Research", "2 first-author NLP papers under review"),
+        ("Status", "Training + Evaluating + Shipping"),
     ],
     [
-        ("Core.Lang", "Java, Python, TypeScript, C++"),
-        ("Core.Frontend", "React, Next.js, Tailwind"),
-        ("Core.Backend", "Spring Boot, FastAPI, Node.js"),
-        ("Core.Data", "PostgreSQL, Redis, RabbitMQ"),
-        ("Core.Quantum", "Qiskit, PennyLane, IBM Quantum"),
+        ("Core.ML", "PyTorch, Hugging Face, PEFT"),
+        ("Core.LLM", "LoRA / QLoRA, instruction tuning, RAG"),
+        ("Core.Eval", "calibration, abstention, LLM-as-judge"),
+        ("Core.Vision", "vision-language models, ViT + XLM-R"),
+        ("Core.Lang", "Python, Java, C++, TypeScript, SQL"),
     ],
     [
         ("Grid.Mail", EMAIL),
