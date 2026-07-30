@@ -146,36 +146,35 @@ def collect(login):
 def streaks(days):
     """Current and longest run of consecutive contributing days.
 
-    Today is only counted once it has activity -- an empty today does not
-    break a streak that is still live, which is how the usual card behaves.
+    Anchored to the last day that actually has activity rather than to the
+    runner's clock: the calendar is in the profile's timezone while Actions
+    runs in UTC, so a naive "today" drops the newest day and reports a streak
+    one short. A day of slack in either direction absorbs that offset, and a
+    gap wider than that means the streak really has ended.
     """
-    if not days:
+    active = sorted(d for d, c in days.items() if c > 0)
+    if not active:
         return (0, None, None), (0, None, None)
-    today = date.today()
-    dates = sorted(days)
-    start = datetime.strptime(dates[0], "%Y-%m-%d").date()
+    dates = [datetime.strptime(d, "%Y-%m-%d").date() for d in active]
 
-    best = cur = 0
-    best_end = cur_start = None
-    best_start = None
-    day = start
-    while day <= today:
-        if days.get(day.isoformat(), 0) > 0:
-            cur += 1
-            if cur == 1:
-                cur_start = day
-            if cur > best:
-                best, best_start, best_end = cur, cur_start, day
+    best = run = 1
+    best_start = run_start = best_end = dates[0]
+    for prev, day in zip(dates, dates[1:]):
+        if (day - prev).days == 1:
+            run += 1
         else:
-            # an empty today has not happened yet -- leave the run alone
-            if day != today:
-                cur, cur_start = 0, None
-        day += timedelta(days=1)
+            run, run_start = 1, day
+        if run > best:
+            best, best_start, best_end = run, run_start, day
 
-    cur_end = today if days.get(today.isoformat(), 0) > 0 else today - timedelta(days=1)
-    current = (cur, cur_start, cur_end) if cur else (0, None, None)
-    longest = (best, best_start, best_end) if best else (0, None, None)
-    return current, longest
+    i = len(dates) - 1
+    cur = 1
+    while i > 0 and (dates[i] - dates[i - 1]).days == 1:
+        cur += 1
+        i -= 1
+    stale = (date.today() - dates[-1]).days > 1
+    current = (0, None, None) if stale else (cur, dates[i], dates[-1])
+    return current, (best, best_start, best_end)
 
 
 # --------------------------------------------------------------------------
