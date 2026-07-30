@@ -1,7 +1,9 @@
-name: Generate Projects Panel
+name: Generate Panels
 
-# Merges projects.json with live GitHub data and publishes projects.svg to the
-# `projects` branch, so the README's image URL never has to change.
+# Builds every generated card -- the projects grid plus the streak, stats and
+# language cards -- and publishes them to the `projects` branch, so the
+# README's image URLs never have to change and nothing depends on a
+# third-party card service staying up.
 on:
   push:
     branches: [main]
@@ -9,6 +11,7 @@ on:
       - "projects.json"
       - "logos/**"
       - ".github/scripts/generate_projects.py"
+      - ".github/scripts/generate_stats.py"
       - ".github/scripts/fetch_data.py"
       - ".github/workflows/projects.yml"
   schedule:
@@ -34,6 +37,14 @@ jobs:
         run: |
           mkdir -p out
           python3 .github/scripts/generate_projects.py merged.json out
+
+      - name: Render streak / stats / language cards
+        env:
+          # METRICS_TOKEN is optional: a PAT with read:user picks up private
+          # contributions that the default Actions token cannot see.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 .github/scripts/generate_stats.py "${{ github.repository_owner }}" out
 
       - name: Publish to projects branch
         uses: crazy-max/ghaction-github-pages@v4

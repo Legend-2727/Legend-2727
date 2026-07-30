@@ -9,25 +9,31 @@
 </picture>
 
 <!-- ===== GITHUB STATS ===== -->
+<!-- Self-hosted: built from the GraphQL API by .github/scripts/generate_stats.py
+     and published to the `projects` branch every 6 hours. No third-party card
+     service to go down. -->
 
 <div align="center">
 
 <!-- Streak — full width -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Legend-2727&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Legend-2727&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Farhad's contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/streak.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/streak-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/streak-light.svg" alt="Contribution streak" />
 </picture>
 
 <br/>
 
 <!-- Stats + top languages — side by side -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="GitHub stats for Legend-2727" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/stats.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/stats-light.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/stats-light.svg" alt="GitHub statistics" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Legend-2727&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Legend-2727&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages used by Legend-2727" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/langs.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/langs-light.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/langs-light.svg" alt="Most used languages" />
 </picture>
 
 </div>
@@ -168,14 +174,12 @@ Everything else lives at **[github.com/Legend-2727?tab=repositories](https://git
 </details>
 
 <details>
-<summary><b>🏅 Trophies & activity</b></summary>
+<summary><b>📈 Activity</b></summary>
 
 <br/>
 
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="GitHub profile trophies" /></a>
-</p>
-
+<!-- The only third-party card left in this README. If it ever 404s, the
+     streak card above already covers the same ground from our own data. -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" alt="Contribution activity graph" />
 </p>
