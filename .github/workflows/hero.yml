@@ -1,0 +1,45 @@
+name: Generate Hero Banner
+
+# Rebuilds dark.svg / light.svg from assets/avatar.jpg. The output is
+# deterministic, so a run with no input change produces no commit.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/avatar.*"
+      - ".github/scripts/generate_hero.py"
+      - ".github/workflows/hero.yml"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install --quiet "Pillow>=10"
+
+      - name: Render banner
+        run: python3 .github/scripts/generate_hero.py assets/avatar.jpg .
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- dark.svg light.svg; then
+            echo "banner unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark.svg light.svg
+          git commit -m "Regenerate hero banner [skip ci]"
+          git push

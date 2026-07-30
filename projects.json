@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ScholarAI",
+    "repo": "Javafest2025/meta",
+    "description": "AI research workspace: search, extract, ask, write. 14 repos, one compose stack.",
+    "tags": ["Spring Boot", "FastAPI", "Next.js"]
+  },
+  {
+    "name": "Quantum Playground",
+    "repo": "Legend-2727/Quantum-Playground",
+    "description": "2nd prize, CQhack25. Four quantum algorithms with live 3D circuit visualisation.",
+    "tags": ["Qiskit", "Python", "Streamlit"]
+  },
+  {
+    "name": "CAES Qubit Mapping",
+    "repo": "Legend-2727/qiskit",
+    "description": "Qubit mapping for noisy hardware, layered onto Qiskit SABRE with real IBM error data.",
+    "tags": ["Qiskit", "Research", "Python"]
+  },
+  {
+    "name": "Veridica",
+    "repo": "Legend-2727/Veridica",
+    "description": "Content authenticity on Algorand: SHA-256 registration, tamper-proof verification.",
+    "tags": ["Algorand", "React", "Supabase"]
+  },
+  {
+    "name": "DevConnect",
+    "repo": "Legend-2727/DevConnect-Backend",
+    "description": "Containerised microservices: auth, users and applications behind JWT middleware.",
+    "tags": ["Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "name": "Sisimpur",
+    "repo": "Legend-2727/Sisimpur-Frontend",
+    "description": "Real-time chat with presence, unread tracking, emoji and file uploads.",
+    "tags": ["React", "REST", "Docker"]
+  },
+  {
+    "name": "Ocean of Movies",
+    "repo": "Legend-2727/JavaFinalProject",
+    "description": "JavaFX client-server movie manager with authenticated sessions and file transfer.",
+    "tags": ["Java", "JavaFX", "Sockets"]
+  },
+  {
+    "name": "IPv6 RA Flooding",
+    "repo": "Legend-2727/-IPv6-Router-Advertisement-RA-Flooding",
+    "description": "Network security lab: router advertisement flooding and the protocol behind it.",
+    "tags": ["Security", "IPv6", "Networking"]
+  }
+]

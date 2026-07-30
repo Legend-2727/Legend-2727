@@ -1,223 +1,212 @@
-<h1 align="center">Hi 👋, I'm Farhad Al-Amin Dipto </h1>
-<h3 align="center">Final-year CSE undergraduate at BUET with expertise in Quantum Computing, Full-Stack Development, and Systems Programming</h3>
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub serves dark.svg in dark mode and light.svg in light mode.
+     Both are generated from assets/avatar.jpg by .github/scripts/generate_hero.py -->
 
-<p align="center">
-  <a href="https://youtu.be/m3kZKnD2NTs">
-    <img alt="Demo (2:13)" src="https://img.shields.io/badge/Demo-2:13-0A0A0A?style=for-the-badge&logo=youtube" />
-  </a>
-  <a href="https://scholarai.me">
-    <img alt="Live: scholarai.me" src="https://img.shields.io/badge/Live-scholarai.me-000000?style=for-the-badge&logo=vercel" />
-  </a>
-  <a href="https://github.com/Javafest2025">
-    <img alt="Org: Solace" src="https://img.shields.io/badge/Org-Solace-0f172a?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/Javafest2025/meta">
-    <img alt="Meta (orchestration)" src="https://img.shields.io/badge/Meta-orchestration-1f2937?style=for-the-badge&logo=docker" />
-  </a>
-  <a href="https://github.com/Javafest2025/docs">
-    <img alt="Docs" src="https://img.shields.io/badge/Docs-architecture-334155?style=for-the-badge&logo=readthedocs" />
-  </a>
-  <a href="https://www.youtube.com/channel/UCb_ESD-NqkHKiYk5knqhIEw">
-    <img alt="YouTube (Demos)" src="https://img.shields.io/badge/YouTube-Demos-FF0000?style=for-the-badge&logo=youtube" />
-  </a>
-  <a href="https://legend-2727.github.io/Farhad-Al-Amin/">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-legend--2727.github.io-0b7285?style=for-the-badge" />
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/main/light.svg">
+  <img alt="Farhad Al-Amin Dipto" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/main/light.svg">
+</picture>
 
-## 🚀 Now building — **ScholarAI** (flagship)
+<!-- ===== GITHUB STATS ===== -->
+
+<div align="center">
+
+<!-- Streak — full width -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Legend-2727&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=Legend-2727&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Farhad's contribution streak" />
+</picture>
+
+<br/>
+
+<!-- Stats + top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="GitHub stats for Legend-2727" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Legend-2727&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Legend-2727&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages used by Legend-2727" />
+</picture>
+
+</div>
+
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/snake-light.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/snake-light.svg" />
+</picture>
+
+</div>
+
+<!-- ===== PROJECTS PANEL ===== -->
+<!-- Generated from projects.json — edit that file, never this section. -->
+
+<br/>
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/projects/projects.svg" alt="Featured projects" />
+</div>
+
+<!-- ===== FLAGSHIP ===== -->
+
+<br/>
+
+## 🚀 Now building — **ScholarAI**
+
 *A single workspace for researchers: search → extract → ask → write → check.*
 
-- Frontend: **React/Next.js**. Core APIs: **Spring Boot (Java)**. AI services: **FastAPI (Python 3.11)**.
-- Data/infra: **PostgreSQL**, **Redis**, **RabbitMQ**; orchestrated via **Docker Compose** across **14 repos**.
-- **CI/CD**: GitHub Actions; health/docs endpoints; input validation & basic content-safety checks.
-- **Extraction stack**: **GROBID, Nougat, Tesseract OCR, Table Transformer**.
-- **Links:** **[Demo (2:13)](https://youtu.be/m3kZKnD2NTs)** · **[Full (41:23)](https://youtu.be/v1TBpKTs80M)** · **[Live](https://scholarai.me)** · **[Org](https://github.com/Javafest2025)** · **[Meta](https://github.com/Javafest2025/meta)** · **[Docs](https://github.com/Javafest2025/docs)**
+- Frontend **React/Next.js** · core APIs **Spring Boot (Java)** · AI services **FastAPI (Python 3.11)**
+- Data & infra **PostgreSQL**, **Redis**, **RabbitMQ**, orchestrated with **Docker Compose** across **14 repos**
+- Extraction stack **GROBID**, **Nougat**, **Tesseract OCR**, **Table Transformer**
+- **CI/CD** on GitHub Actions, health/docs endpoints, input validation and content-safety checks
 
-<details><summary><b>🏆 Trophies</b> (click to expand)</summary>
+**[Demo (2:13)](https://youtu.be/m3kZKnD2NTs)** · **[Full walkthrough (41:23)](https://youtu.be/v1TBpKTs80M)** · **[Live](https://scholarai.me)** · **[Org](https://github.com/Javafest2025)** · **[Meta](https://github.com/Javafest2025/meta)** · **[Docs](https://github.com/Javafest2025/docs)**
 
-<h3 align="left">Trophies:</h3>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="GitHub profile trophies" /></a> </p>
+<!-- ===== DETAIL SECTIONS ===== -->
+
+<details>
+<summary><b>🏆 Achievements</b></summary>
+
+<br/>
+
+**🏆 Champion — Technopreneurship 2026**
+Entrepreneurship competition run by **Gigalogy**, after three months of intensive training. Champion among all competing teams.
+
+**🏆 Champion — Echologyx Hackathon 2025**
+Team **BUET_Solace**. A one-month run of AI and product work.
+
+**🥈 1st Runners-Up — Therap Javafest 2025 Grand Finale**
+Team **Solace**, with **ScholarAI**. Recognised for full-stack execution and AI integration.
+
+**🏆 Top 10 Finalist — Solvio AI Hackathon**
+Selected among the top finalists in a competitive AI innovation challenge.
+
+**🥈 2nd Prize — CQhack25 Quantum Computing Hackathon**
+Project: **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** · [certificate](https://www.virtualbadge.io/certificate-validator?credential=59f3e7ce-6d19-44e2-8401-4a5e74d0f41b)
+
+**🌍 Bolt Global Hackathon — participant**
+Project: **[Veridica](https://github.com/Legend-2727/Veridica)**, blockchain-backed content authenticity.
+
+**🚀 Also**
+IonQ VQI-FLIQ 2025 quantum optimisation challenges · UAP Hackathon 2025 (unemployment and skill development).
 
 </details>
 
-## 🎓 Academic Background
-- 🎓 **Final-year Student, Department of Computer Science & Engineering (CSE)**
-  **Bangladesh University of Engineering and Technology (BUET)**
-- 🏫 **HSC Batch 20** | **Rajshahi Cadet College**
+<details>
+<summary><b>🔬 Research & focus</b></summary>
 
-## 🔬 Research Interests & Current Focus
-- 🧬 **Quantum Computing Research**: CAES qubit mapping strategy for noisy quantum hardware using real IBM error data
-- ⚛️ **Quantum Frameworks**: Hands-on experience with Qiskit, PennyLane, quantum circuit optimization for NISQ devices
-- 🤖 **Artificial Intelligence & Machine Learning**: Exploring quantum ML algorithms and classical ML implementations
-- 🧠 **Large Language Models (LLMs)**: Active research in parameter-efficient fine-tuning methodologies, including Low-Rank Adaptation (LoRA) and quantized model optimization for domain-specific LLM applications. Investigating instruction-tuning paradigms and reinforcement learning from human feedback (RLHF) for enhanced model alignment
+<br/>
 
-## 🏆 Notable Achievements
-🏆 **Champion** - Technopreneurship 2026
-- 🏅 Entrepreneurship competition organized by **Gigalogy**
-- 📈 Completed 3 months of intensive entrepreneurship training
-- 🚀 Emerged as champion among competing teams
-� **Champion** - Echologyx Hackathon 2025
-- 🏅 Team BUET_Solace - Bangladesh University of Engineering and Technology (BUET)
-- 🎯 One-month journey of innovation, learning, and teamwork
-- 💡 Developed and refined groundbreaking solutions in AI and technology
+- **Quantum computing** — CAES qubit mapping for noisy hardware, evaluated against real IBM error data; NISQ transpilation and circuit optimisation with Qiskit and PennyLane.
+- **Large language models** — parameter-efficient fine-tuning (LoRA / QLoRA), instruction tuning, RLHF and domain adaptation.
+- **Machine learning** — quantum ML algorithms alongside classical implementations.
+- **Distributed systems** — microservice architecture, message-driven services, container orchestration.
+- **Security & networking** — protocol-level vulnerability work, ethical hacking.
+- **Off-screen** — chess and puzzles.
 
-🥈 **1st Runners-Up** - Therap Javafest 2025 Grand Finale
-- 🏅 Team Solace - "The Ultimate Battle of Brains and Bytes"
-- 🚀 ScholarAI project - AI-powered research workspace platform
-- 🎊 Recognized for excellence in full-stack development and AI integration
+</details>
 
-🏆 **Top 10 Finalist** - Solvio AI Hackathon
-- 🎯 Selected among top finalists in competitive AI innovation challenge
-- 🤖 Advanced AI/ML problem-solving and solution development
+<details>
+<summary><b>📦 More projects</b></summary>
 
-�🥈 **2nd Prize Winner** - CQhack25 Quantum Computing Hackathon 
-- 🏅 [Certificate Verification](https://www.virtualbadge.io/certificate-validator?credential=59f3e7ce-6d19-44e2-8401-4a5e74d0f41b)
-- ⚛️ Project: [Quantum Playground](https://github.com/Legend-2727/Quantum-Playground) - Interactive quantum algorithm visualizations
+<br/>
 
-🌍 **Bolt Global Hackathon Participant**
-- 🔒 Project: [Veridica](https://github.com/Legend-2727/Veridica) - Blockchain-powered content authenticity platform
+**⚛️ Quantum**
 
-🚀 **Multiple Hackathon Achievements**
-- 🔬 IonQ VQI-FLIQ 2025 Competition - Successfully solved quantum optimization challenges
-- 🎯 UAP Hackathon 2025 - Solving unemployment and skill development issues
+- **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** — four production algorithms (N-Queens via Grover's, graph colouring via QAOA, quantum SVM, Deutsch-Jozsa) with interactive 3D circuit visualisation, live Qiskit-Aer simulation and side-by-side classical/quantum comparisons. QSVM uses ZZ and Pauli feature maps with quantum kernel construction. [Live](https://quantum-playground.streamlit.app/) · [demo video](https://youtu.be/Y2Yp1Pa4Sx0)
+- **[CAES Mapping research](https://github.com/Legend-2727/qiskit)** — a qubit mapping strategy for noisy hardware, integrated with Qiskit's SABRE transpiler for better gate routing.
 
-## 🚀 Featured Projects
+**🔗 Blockchain**
 
-- **ScholarAI — Production-Grade AI Research Workspace Platform**  
-  End-to-end research workflow: Search papers → Extract structured data → Contextual Q&A → AI-assisted LaTeX → Pre-submission checks  
-  **Architecture:** 14-repository microservices ecosystem with Docker Compose orchestration  
-  **Backend:** Spring Boot (Java) • Service Registry (Eureka) • API Gateway • Notification/Project/User Microservices  
-  **AI Services:** FastAPI (Python 3.11) • GROBID • Nougat • Tesseract OCR • Table Transformer  
-  **Data Infrastructure:** PostgreSQL • Redis • RabbitMQ  
-  **DevOps:** GitHub Actions CI/CD • Health/Docs endpoints • Input validation • Content-safety checks  
-  **Frontend:** React/Next.js with server-side rendering  
-  **Demo (2:13):** https://youtu.be/m3kZKnD2NTs • **Full (41:23):** https://youtu.be/v1TBpKTs80M • **Live:** https://scholarai.me • **Org:** https://github.com/Javafest2025 • **Meta:** https://github.com/Javafest2025/meta • **Docs:** https://github.com/Javafest2025/docs
+- **[Veridica](https://github.com/Legend-2727/Veridica)** — Algorand testnet registration of SHA-256 file hashes for zero-cost, tamper-proof ownership proofs, with ownership-conflict detection and explorer-linked verification badges. AI generation via Tavus (video) and ElevenLabs (audio). React, TypeScript, Vite, Supabase, algosdk. [Live](https://veridica.netlify.app/) · [demo video](https://youtu.be/CkMoEun7Z38)
 
-### ⚛️ Quantum Computing & Research
-- **[Quantum Playground](https://github.com/Legend-2727/Quantum-Playground)** - 🏆 **2nd Prize CQhack25 Quantum Computing Hackathon**
-  - **4 Production Quantum Algorithms:** N-Queens (Grover's), Graph Coloring (QAOA), Quantum SVM, Deutsch-Jozsa
-  - **Advanced Features:** Interactive 3D quantum circuit visualizations, real-time Qiskit simulation, floating animated qubits
-  - **Technical Stack:** Qiskit 0.44.0, Qiskit-Aer, Streamlit 1.33.0, NumPy, Matplotlib, Plotly
-  - **Quantum Implementations:** Superposition states, quantum oracles, diffusion operators, parameterized circuits
-  - **Educational Content:** Step-by-step algorithm explanations, performance comparisons (classical vs quantum), quantum advantage demonstrations
-  - **QSVM Features:** Quantum feature maps (ZZFeatureMap, PauliFeatureMap), quantum kernel construction, support vector identification
-  - **Deutsch-Jozsa:** One-query function type determination (constant vs balanced), exponential speedup demonstration
-  - Live demo: [quantum-playground.streamlit.app](https://quantum-playground.streamlit.app/)
-  - 📹 [Demo Video](https://youtu.be/Y2Yp1Pa4Sx0)
+**🌐 Full-stack**
 
-- **[Quantum Research - CAES Mapping](https://github.com/Legend-2727/qiskit)** - Advanced quantum transpilation research
-  - CAES qubit mapping strategy for noisy quantum hardware
-  - Integration with Qiskit's SABRE transpiler for improved gate routing
-  - Real IBM quantum device error data analysis
+- **[DevConnect](https://github.com/Legend-2727/DevConnect-Backend)** — auth (JWT, bcrypt), user and application services, each containerised, over PostgreSQL with connection pooling and HTTP-only cookie sessions. [Frontend](https://github.com/Legend-2727/Devconnect-Frontend) · [demo](https://youtu.be/9UrId7DYDHU) · [part 2](https://youtu.be/j-04UTjIRdA)
+- **[YouTube Dummy](https://github.com/Legend-2727/2-2-Project--Youtube--dummy---)** — video upload, likes and comments, a custom recommendation algorithm and an advertiser dashboard. React, Node.js, MySQL.
+- **[Sisimpur](https://github.com/Legend-2727/Sisimpur-Frontend)** — real-time chat with auth, emoji, file uploads, unread tracking and presence indicators.
 
-### 🔗 Blockchain & Web3
-- **[Veridica](https://github.com/Legend-2727/Veridica)** - **Bolt Global Hackathon Finalist**
-  - **Blockchain Authentication:** Algorand testnet integration for immutable content ownership proofs via zero-cost transactions
-  - **Cryptographic Security:** SHA-256 file hashing, automatic blockchain registration, tamper-proof verification system
-  - **AI Content Generation:** Tavus API (video), ElevenLabs API (audio), AI-powered replica creation
-  - **Technical Implementation:** React, TypeScript, Vite, Supabase (PostgreSQL), Algorand SDK, algosdk.js
-  - **Smart Features:** Ownership conflict detection, blockchain explorer integration (AlgoExplorer), verification badges
-  - **Architecture:** Browser-compatible blockchain integration, Buffer polyfills for Node.js API compatibility
-  - **Security:** JWT authentication, secure HTTP-only cookies, protected API routes, graceful service degradation
-  - **DevOps:** Production-ready blockchain-only mode, Netlify deployment, environment-based configuration
-  - Live demo: [veridica.netlify.app](https://veridica.netlify.app/)
-  - 📹 [Demo Video](https://youtu.be/CkMoEun7Z38)
+**🔐 Security**
 
-### 🌐 Full-Stack Development
-- **[DevConnect Platform](https://github.com/Legend-2727/DevConnect-Backend)** - Production Microservices Architecture
-  - **Backend Services:** Authentication Service (JWT, bcrypt), User Service, Application Service - all containerized
-  - **Tech Stack:** Node.js 18, Express.js, PostgreSQL, Docker, cookie-parser, JWT authentication
-  - **Architecture:** Service-oriented design, RESTful API endpoints, middleware authentication layer
-  - **Database:** PostgreSQL with connection pooling, schema-based organization (devconnect schema)
-  - **Security:** HTTP-only cookies, bcrypt password hashing, JWT token validation, secure session management
-  - **DevOps:** Individual Dockerfiles per service, hot-reload with nodemon, environment-based configuration
-  - **API Features:** Account registration/login, protected routes, user profile management, session handling
-  - Frontend: [React Application](https://github.com/Legend-2727/Devconnect-Frontend)
-  - 📹 [Demo Videos](https://youtu.be/9UrId7DYDHU) | [Part 2](https://youtu.be/j-04UTjIRdA)
+- **[IPv6 RA Flooding](https://github.com/Legend-2727/-IPv6-Router-Advertisement-RA-Flooding)** — router advertisement flooding as a network security demonstration.
 
-- **[YouTube Dummy Platform](https://github.com/Legend-2727/2-2-Project--Youtube--dummy---)** - Full-featured video platform
-  - Video sharing with upload, like, comment functionality
-  - Custom recommendation algorithm implementation
-  - Advertiser dashboard with ad tracking
-  - Tech Stack: React, Node.js, MySQL
+**🎮 Desktop & games**
 
-### 🔐 Cybersecurity & Networking
-- **[IPv6 Router Advertisement Flooding](https://github.com/Legend-2727/-IPv6-Router-Advertisement-RA-Flooding)**
-  - Network security vulnerability demonstration
-  - Advanced networking protocols analysis
+- **[Ocean of Movies](https://github.com/Legend-2727/JavaFinalProject)** — JavaFX client-server movie manager with authentication and secure file transfer.
+- **[Shooting Game](https://github.com/Legend-2727/Shooting-Game)** — 2D arcade game in C++ with iGraphics: multiple characters, power-ups, enemy types and sound.
 
-### 💬 Communication & Messaging
-- **[Sisimpur Frontend](https://github.com/Legend-2727/Sisimpur-Frontend)** - Real-time chat application
-  - React.js frontend with REST API backend
-  - Features: Authentication, emoji support, file uploads, unread tracking
-  - Online/offline status indicators, Docker deployment
+Everything else lives at **[github.com/Legend-2727?tab=repositories](https://github.com/Legend-2727?tab=repositories)**.
 
-### 🎮 Desktop Applications & Gaming
-- **[Ocean of Movies](https://github.com/Legend-2727/JavaFinalProject)** - JavaFX desktop application
-  - Client-server movie management system
-  - User authentication and secure file transfer
-  - Built with JavaFX and FXML
+</details>
 
-- **[iGraphics Shooting Game](https://github.com/Legend-2727/Shooting-Game)** - 2D arcade game
-  - C++ game with iGraphics library
-  - Multiple characters, power-ups, enemy types, sound effects
+<details>
+<summary><b>🧰 Stack</b></summary>
 
-👨‍💻 All of my projects are available at [GitHub](https://github.com/Legend-2727?tab=repositories)
+<br/>
 
-📧 How to reach me **alaminfarhad27@gmail.com**
-
-## 🎯 Current Focus & Interests
-- 🔬 **Quantum Computing Research**: NISQ device optimization, quantum transpilation, quantum machine learning
-- 🤖 **Artificial Intelligence**: Machine learning algorithms, neural networks, AI applications
-- 🧠 **Large Language Models**: Advanced research in parameter-efficient fine-tuning (PEFT), LoRA/QLoRA implementations, instruction-tuning, RLHF, and domain adaptation for specialized NLP tasks
-- 🌐 **Full-Stack Development**: MERN stack, microservices architecture, cloud-native applications
-- 🛡️ **Cybersecurity**: Network security, ethical hacking
-- ♟️ **Logic & Strategy**: Chess enthusiast, puzzle solving
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/al-amin-farhad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn profile" height="30" width="40" /></a>
-<a href="https://facebook.com/profile.php?id=100007587257707" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook profile" height="30" width="40" /></a>
-<a href="https://www.youtube.com/channel/UCb_ESD-NqkHKiYk5knqhIEw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube channel for project demos" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&labelColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/FastAPI-05998B?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" alt="Python 3.11" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Qiskit-6929C4?logo=qiskit&logoColor=white" alt="Qiskit" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Docker%20Compose-384d54?logo=docker&logoColor=white" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Auth-OAuth2%20%7C%20JWT-111827" alt="OAuth2/JWT" />
-  <img src="https://img.shields.io/badge/Observability-logs%20%7C%20health%20%7C%20docs-111827" alt="Observability" />
-</p>
-
-<details><summary><b>📈 Charts & Activity</b> (click to expand)</summary>
-
-<h3 align="left">Charts & Stats:</h3>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Legend-2727&show_icons=true&locale=en&layout=compact&theme=great-gatsby" alt="Top languages used by Legend-2727" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Legend-2727&show_icons=true&locale=en&theme=great-gatsby" alt="GitHub stats for Legend-2727" /></p>
-
-<h3 align="left">Activities:</h3>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph showing GitHub activity" src="https://raw.githubusercontent.com/Legend-2727/Legend-2727/output/pacman-contribution-graph.svg">
-</picture>
-
-<p align='center'>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" alt="GitHub activity graph for Legend-2727" >
+  <img src="https://img.shields.io/badge/Auth-OAuth2%20%7C%20JWT-111827" alt="OAuth2 and JWT" />
 </p>
 
 </details>
+
+<details>
+<summary><b>🏅 Trophies & activity</b></summary>
+
+<br/>
+
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Legend-2727&theme=algolia" alt="GitHub profile trophies" /></a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Legend-2727&theme=high-contrast" alt="Contribution activity graph" />
+</p>
+
+</details>
+
+<!-- ===== SOCIAL BADGES ===== -->
+
+<br/>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/al-amin-farhad">
+  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0A101F" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://legend-2727.github.io/Farhad-Al-Amin/">
+  <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.youtube.com/channel/UCb_ESD-NqkHKiYk5knqhIEw">
+  <img src="https://img.shields.io/badge/YouTube-0A101F?style=for-the-badge&logo=youtube&logoColor=F87171&labelColor=0A101F" alt="YouTube" />
+</a>
+&nbsp;&nbsp;
+<a href="https://facebook.com/profile.php?id=100007587257707">
+  <img src="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=60A5FA&labelColor=0A101F" alt="Facebook" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:alaminfarhad27@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
+
+</div>
+
+<!-- ===== END ===== -->
